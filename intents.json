@@ -1,0 +1,124 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting Turf Hub",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting Turf Hub",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "book_turf",
+        "patterns": [
+          "I want to book a turf",
+          "How do I book a turf?",
+          "Can I book a turf?",
+          "I need a turf for my team"
+        ],
+        "responses": [
+          "You can book a turf by visiting our booking page.",
+          "Sure, just go to the booking section and select your preferred date and time.",
+          "Yes, you can book a turf from our website's booking page."
+        ]
+      },
+      {
+        "tag": "cancel_booking",
+        "patterns": [
+          "How do I cancel a booking?",
+          "I want to cancel my booking",
+          "Can I cancel my turf booking?"
+        ],
+        "responses": [
+          "To cancel your booking, please visit your account page and follow the cancellation instructions.",
+          "You can cancel your booking from your account page."
+        ]
+      },
+      {
+        "tag": "tournaments",
+        "patterns": [
+          "Tell me about upcoming tournaments",
+          "Are there any tournaments?",
+          "I want to join a tournament"
+        ],
+        "responses": [
+          "You can find information about upcoming tournaments on our tournaments page.",
+          "We have several tournaments coming up. Check the tournaments section for details.",
+          "Visit our tournaments page to see all upcoming events and how to join."
+        ]
+      },
+      {
+        "tag": "fitness_coaching",
+        "patterns": [
+          "Do you offer fitness coaching?",
+          "I want a fitness coach",
+          "Tell me about your fitness coaching sessions"
+        ],
+        "responses": [
+          "Yes, we offer fitness coaching sessions. Check our coaching page for more details.",
+          "You can book a fitness coaching session through our website. Visit the coaching section for more information.",
+          "We have experienced coaches available. Check our fitness coaching page for details."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you located?",
+          "What is your address?",
+          "How do I find Turf Hub?"
+        ],
+        "responses": [
+          "We are located at [insert address]. You can find a map and directions on our contact page.",
+          "Visit our contact page to see our location and get directions."
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "How do I contact you?",
+          "What is your phone number?",
+          "How can I get in touch?"
+        ],
+        "responses": [
+          "You can contact us via email at support@turfhub.com or call us at [insert phone number].",
+          "Visit our contact page for all the ways you can reach us."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
+  
